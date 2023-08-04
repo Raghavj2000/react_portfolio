@@ -1,0 +1,158 @@
+.contact-screen {
+    height: 100vh; /* Set height to 100% of the viewport height */
+    width: 100%; /* Set width to 100% of the parent container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .contact-container{
+    width:80rem;
+    background-color: #2E2E2E;
+    height: auto;
+    box-shadow: 0 1.25rem 1.5625rem -0.3125rem rgb(0 0 0 / 0.1), 0 0.5rem 0.625rem -0.375rem rgb(0 0 0 / 0.1);
+    border-radius:1rem ;
+    display: flex;
+  
+  }
+  
+  .contact-heading{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    background-color: transparent;
+   
+  }
+  .contact-left{
+    flex:1;
+    background-color: #28282b;
+
+ 
+    
+  }
+  .mac-design{
+    width: 100%;
+    height: 1.875rem;
+    background-color: #8c8c8c;
+    position: relative;
+  }
+  
+  .red::before{
+    content: "";
+    position: absolute;
+    width: 0.75rem;
+    border-radius: 50%;
+    height: 0.75rem;
+    background-color: #ff6057;
+    top: 0.625rem;
+    left: 0.625rem;
+    
+  }
+  .green::before{
+    content: "";
+    position: absolute;
+    width: 0.75rem;
+    border-radius: 50%;
+    height: 0.75rem;
+    background-color: #ffbd2e;
+    top: 0.625rem;
+    left: 3.125rem;
+  }
+  .red::after{
+    content: "";
+    position: absolute;
+    width: 0.75rem;
+    border-radius: 50%;
+    height: 0.75rem;
+    background-color: #27c93f;
+    top: 0.625rem;
+    left: 1.875rem;
+    
+  }
+  .contact-right{
+    flex:1;
+    background-color:#28282b;
+   
+  }
+  .green-span{
+    color: #02f29d;
+    background-color: transparent;
+  }
+  .cd-contact{
+   margin: 3rem 2rem 3rem 2rem;
+   background-color: transparent;
+  }
+  .cd-contact-form{
+    margin: 3rem 2rem 3rem 0rem;
+    background-color: transparent;
+     
+   }
+  .light-green{
+    color: #27b03d;
+    background-color: transparent;
+  }
+  .about-contact{
+    margin: 0rem 2rem 1rem 2rem;
+    background-color: transparent;
+  }
+  .about-contact-form{
+    margin: 2rem  0rem 2rem 0rem;
+    background-color: transparent;
+  }
+  .text-contact{
+    margin: 0 2rem 0 2rem;
+    background-color: transparent;
+    line-height: 1.6;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem; 
+    background-color: transparent;
+    /* Adjust the gap between label and input as needed */
+  }
+  
+  label {
+    display: block;
+    background-color: transparent;
+    font-weight: bold;
+    margin-bottom: 0.5rem; /* Adjust the gap between label and input as needed */
+
+  }
+  form{
+    background-color: transparent;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0.0625rem solid #ccc;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    outline: none;
+    color: white;
+    padding: 1rem;
+  }
+  
+  input[type="submit"] {
+    background-color: #fff;
+    color: #000;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border: none;
+  
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  .socials{
+    margin-top: 1rem;
+  }
+  .social-icons{
+    margin-top: 1rem;
+  }
+
+ 

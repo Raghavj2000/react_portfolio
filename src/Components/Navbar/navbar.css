@@ -1,0 +1,31 @@
+.navbar-screen{
+    width: 100%;
+    height: 4.375rem;
+    background-color: transparent;
+   
+     font-family: 'Press Start 2P', cursive ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+.navbar-screen a {
+    text-decoration: none;
+    margin-right: 1.625rem; /* Adjust the value to control the spacing between the links */
+    color: #fff; /* Set the desired color for the links */
+  }
+  
+  .navbar-screen a.active {
+    font-weight: bold; /* Example: Set the active link to bold */
+    font-size: 1.25rem;
+    transition:0.2s ;
+    /* Additional styles for the active link */
+  }
+  
+ 
+  img{
+    width: 5rem;
+    height: 3rem;
+  }
+
+ 
